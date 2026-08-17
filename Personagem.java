@@ -7,9 +7,13 @@ public class Personagem {
 
     public Personagem(String nome, String classe, int nivel, int pontosDeVida, double poderBase) {
         this.nome = nome;
-        .
-        .
-        .
+        this.classe = classe;
+        this.nivel = nivel;
+        this.pontosDeVida = pontosDeVida;
+        this.poderBase = poderBase;
+    
+        
+        
 
     }
 
