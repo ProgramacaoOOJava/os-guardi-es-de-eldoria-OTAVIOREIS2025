@@ -18,10 +18,16 @@ public class Personagem {
     }
 
     public void exibirStatus() {
-        System.out.println("--- Status do Personagem ---");
-        .
-        .
-        .
+        System.out.println("Nome:" + nome);
+        System.out.println("Classe:" + classe);
+        System.out.println("Nível:" + nivel);
+        System.out.println("HP:" + pontosDeVida);
+        System.out.println("Poder Base:" + poderBase);
+        System.out.println('''');
+
+        
+        
+        
 
     }
 }
