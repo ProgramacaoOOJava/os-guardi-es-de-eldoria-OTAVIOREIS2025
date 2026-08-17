@@ -17,18 +17,17 @@ public class Personagem {
 
     }
 
+    public Personagem() {
+        //TODO Auto-generated constructor stub
+    }
+
     public void exibirStatus() {
         System.out.println("Nome:" + nome);
         System.out.println("Classe:" + classe);
         System.out.println("Nível:" + nivel);
         System.out.println("HP:" + pontosDeVida);
         System.out.println("Poder Base:" + poderBase);
-        System.out.println('''');
-
         
-        
-        
-
     }
 }
 
