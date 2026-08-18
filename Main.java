@@ -15,3 +15,10 @@ public class Main {
             // Exibe o status do personagem
             p.exibirStatus();
 
+            // Executa a habilidade especial
+            // correspondente ao tipo real do personagem
+            p.usarHabilidadeEspecial();
+
+
+
+
