@@ -8,7 +8,12 @@ public class Mago extends Personagem {
     public Mago(String nome) {  
  
         // Chama o construtor da classe Personagem
-        super(nome);       
+        super(nome); 
+
+        // Define a mana inicial do Mago
+        this.mana = 100;
+    }
+
     }      
-}
+
 
