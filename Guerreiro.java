@@ -18,9 +18,12 @@ this.força = 80;
 // Sobrescreve o método de exibiçao de status
 @Override
 public void exibirStatus(){
-    
+    System.out.println("===GUERREIRO===");
+    System.out.println("Nome: " + nome);
+    System.out.println(" Força: " + força);
 }
 
+// Implementação da habilidade especial do Guerreiro
 
 }   
 
