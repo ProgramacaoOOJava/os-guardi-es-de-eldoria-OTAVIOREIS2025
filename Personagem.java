@@ -8,5 +8,9 @@ public abstract class Personagem {
         this.nome = nome;
     }
     
+    // Método para exibir informações comuns do personagem
+    public void exibirStatus(){
+        System.out.println("Nome: " + nome);
+    }
 }
 
