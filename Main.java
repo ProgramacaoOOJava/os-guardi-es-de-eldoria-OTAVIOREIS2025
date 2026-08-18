@@ -9,3 +9,6 @@ public class Main {
             new Mago("Elenara")
         };
 
+        // Percorre todos os personagens do grupo
+        for (Personagem p : grupo) {
+
