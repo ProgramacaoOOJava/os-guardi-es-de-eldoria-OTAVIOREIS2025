@@ -19,6 +19,12 @@ public class Main {
             // correspondente ao tipo real do personagem
             p.usarHabilidadeEspecial();
 
+            // Linha em branco para organizar a saída
+            System.out.println();
+        }
+    }
+}
+
 
 
 
