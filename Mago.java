@@ -14,6 +14,14 @@ public class Mago extends Personagem {
         this.mana = 100;
     }
 
+    // Sobrescreve o método de exibição de status
+    @Override
+    public void exibirStatus() {
+
+        System.out.println("=== MAGO ===");
+        System.out.println("Nome: " + nome);
+        System.out.println("Mana: " + mana);
+    }
     }      
 
 
