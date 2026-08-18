@@ -13,9 +13,13 @@ super(nome);
 
 // Define  a força inicial do guerreiro
 this.força = 80;
-
 }
 
+// Sobrescreve o método de exibiçao de status
+@Override
+public void exibirStatus(){
+    
+}
 
 
 }   
