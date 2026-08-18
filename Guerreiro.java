@@ -24,6 +24,12 @@ public void exibirStatus(){
 }
 
 // Implementação da habilidade especial do Guerreiro
+@Override
+public void usarHabilidadeEspecial(){
 
+    System.out.println(
+        "Guerreiro " + nome + "ataca com Espada Flanejante!"
+    );
+}
 }   
 
