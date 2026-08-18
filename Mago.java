@@ -21,7 +21,18 @@ public class Mago extends Personagem {
         System.out.println("=== MAGO ===");
         System.out.println("Nome: " + nome);
         System.out.println("Mana: " + mana);
+
+        // Implementação da habilidade especial do Mago
+    @Override
+    public void usarHabilidadeEspecial() {
+
+        System.out.println(
+            "Mago " + nome +
+            " lança Bola de Fogo!"
+        );
     }
-    }      
+}
+    
+      
 
 
