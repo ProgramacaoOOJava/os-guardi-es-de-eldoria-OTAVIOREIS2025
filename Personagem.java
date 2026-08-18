@@ -12,5 +12,8 @@ public abstract class Personagem {
     public void exibirStatus(){
         System.out.println("Nome: " + nome);
     }
+
+    // Método abstrato que deverá ser implementado pelas subclasses
+    public abstract void usarHabilidadeEspecial();
 }
 
