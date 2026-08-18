@@ -12,3 +12,6 @@ public class Main {
         // Percorre todos os personagens do grupo
         for (Personagem p : grupo) {
 
+            // Exibe o status do personagem
+            p.exibirStatus();
+
