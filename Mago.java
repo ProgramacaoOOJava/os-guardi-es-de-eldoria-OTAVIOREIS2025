@@ -5,6 +5,10 @@ public class Mago extends Personagem {
     private int mana;
 
  // Construtor do Mago
-    public Mago(String nome) {    
+    public Mago(String nome) {  
+ 
+        // Chama o construtor da classe Personagem
+        super(nome);       
+    }      
 }
 
